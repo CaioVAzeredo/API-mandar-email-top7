@@ -15,7 +15,7 @@ public class EmailService {
     public void enviarEmail(ContatoDTO dto) {
         SimpleMailMessage mensagem = new SimpleMailMessage();
         mensagem.setFrom("enviaremail698@gmail.com");
-        mensagem.setTo("caio.viana.39@gmail.com");
+        mensagem.setTo("top7esportes@gmail.com");
         mensagem.setSubject("Assunto: " + dto.getAssunto());
         mensagem.setText(
                 "Nome: " + dto.getNome() + "\n" +
